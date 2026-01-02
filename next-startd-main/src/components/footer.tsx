@@ -68,7 +68,7 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <h3 className="text-xl font-bold mb-4">
               <span className="text-accent">에스엠</span>
-              <span className="text-white">재활센터</span>
+              <span className="text-white">운동재활센터</span>
             </h3>
             <p className="text-white/60 text-sm leading-relaxed mb-6 max-w-md">
               {SITE_DATA.about.description.slice(0, 120)}...
@@ -158,7 +158,7 @@ export default function Footer() {
             <p className="text-white/50 text-sm">
               Copyright © {currentYear} {SITE_DATA.name}. All rights reserved.
             </p>
-            <ul className="flex gap-6 text-sm">
+            {/*<ul className="flex gap-6 text-sm">
               <li>
                 <a href="#" className="text-white/50 hover:text-accent transition-colors">
                   개인정보처리방침
@@ -174,7 +174,7 @@ export default function Footer() {
                   사이트맵
                 </a>
               </li>
-            </ul>
+            </ul>*/}
           </div>
         </Container>
       </div>

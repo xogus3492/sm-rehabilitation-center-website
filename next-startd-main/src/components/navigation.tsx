@@ -90,7 +90,7 @@ export default function Navigation() {
                 "text-lg font-semibold tracking-tight transition-colors",
                 isScrolled ? "text-primary" : "text-white"
               )}>
-                재활센터
+                운동재활센터
               </span>
             </a>
 
