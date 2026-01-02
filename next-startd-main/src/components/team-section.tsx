@@ -26,9 +26,17 @@ export default function TeamSection() {
             <MotionItem key={index}>
               <MotionHover scale={1.02} y={-8}>
                 <article className="group text-center p-6 rounded-2xl transition-colors hover:bg-surface-secondary">
-                  {/* 프로필 이미지 영역 */}
+                  {/* 프로필 이미지 영역 - 실제 이미지로 표시 */}
                   <div className="relative w-40 h-40 mx-auto mb-6 bg-surface-secondary rounded-full flex items-center justify-center overflow-hidden group-hover:bg-surface transition-colors">
-                    <User className="w-16 h-16 text-text-tertiary" aria-hidden="true" />
+                    {member.image ? (
+                      <img
+                        src={member.image}
+                        alt={`${member.name} 프로필 사진`}
+                        className="object-cover w-full h-full"
+                      />
+                    ) : (
+                      <User className="w-16 h-16 text-text-tertiary" aria-hidden="true" />
+                    )}
                   </div>
 
                   {/* 정보 */}
