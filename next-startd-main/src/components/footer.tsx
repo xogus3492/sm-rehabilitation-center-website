@@ -71,7 +71,7 @@ export default function Footer() {
               <span className="text-white">운동재활센터</span>
             </h3>
             <p className="text-white/60 text-sm leading-relaxed mb-6 max-w-md">
-              {SITE_DATA.about.description.slice(0, 120)}...
+              {SITE_DATA.about.description.slice(0, 120)}
             </p>
             
             {/* 소셜 아이콘 */}
