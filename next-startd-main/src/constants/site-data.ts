@@ -1,26 +1,26 @@
 /**
- * 에스엠재활센터 사이트 데이터
+ * 에스엠운동재활센터 사이트 데이터
  * 더미 데이터로 구성되어 있으며, 실제 운영 시 교체 필요
  */
 export const SITE_DATA = {
   // 기본 정보
-  name: "에스엠재활센터",
-  phone: "02-1234-5678",
-  address: "서울시 강남구 테헤란로 123, SM빌딩 4층",
-  email: "contact@smrehab.kr",
+  name: "에스엠운동재활센터",
+  phone: "032-422-8521",
+  address: "인천 남동구 남동대로 901 4층 에스엠운동재활센터",
+  email: "smcenter@naver.com",
 
   // 메인섹션 (히어로)
   hero: {
-    title: "당신의 건강한 움직임을 되찾아 드립니다",
+    title: "당신의 건강한 움직임을\n되찾아 드립니다",
     subtitle:
       "전문 의료진과 함께하는 1:1 맞춤 재활 프로그램으로 일상의 활력을 되찾으세요.",
   },
 
   // 센터 소개
   about: {
-    title: "에스엠재활센터를 소개합니다",
+    title: "에스엠운동재활센터를 소개합니다",
     description:
-      "에스엠재활센터는 환자 중심의 맞춤형 재활치료를 제공합니다. 최신 의료 장비와 전문 의료진의 노하우를 바탕으로, 각 환자에게 최적화된 치료 계획을 수립하여 빠른 회복을 돕습니다.",
+      "에스엠운동재활센터는 환자 중심의 맞춤형 재활치료를 제공합니다. 최신 의료 장비와 전문 의료진의 노하우를 바탕으로, 각 환자에게 최적화된 치료 계획을 수립하여 빠른 회복을 돕습니다.",
     features: [
       {
         icon: "UserCheck",
@@ -46,7 +46,7 @@ export const SITE_DATA = {
   // 의료진 소개
   team: [
     {
-      name: "김재활",
+      name: "박보철",
       role: "대표원장",
       specialty: "도수치료 / 스포츠재활 전문",
       career: [
@@ -54,18 +54,18 @@ export const SITE_DATA = {
         "삼성서울병원 재활의학과 10년 근무",
         "대한도수치료학회 정회원",
       ],
-      image: "/images/team-1.jpg",
+      image: "/images/team/profile-img-1.jpeg",
     },
     {
       name: "이운동",
-      role: "부원장",
+      role: "치료실장",
       specialty: "운동재활 / 체형교정 전문",
       career: [
         "고려대학교 체육교육과 졸업",
         "국가대표 의무트레이너 역임",
         "운동재활 전문자격 보유",
       ],
-      image: "/images/team-2.jpg",
+      image: "",
     },
     {
       name: "박통증",
@@ -76,7 +76,7 @@ export const SITE_DATA = {
         "아산병원 통증센터 5년 근무",
         "만성통증 전문 치료사",
       ],
-      image: "/images/team-3.jpg",
+      image: "",
     },
   ],
 
